@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qassem-sales-analytics"
+version = "0.2.0"
+description = "Enterprise sales analytics toolkit by Qassem."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Kasem Adra" }
+]
+license = { text = "MIT" }
+keywords = ["sales", "analytics", "dashboard", "pandas", "forecasting", "reporting", "qassem"]
+dependencies = [
+    "pandas>=2.0.0",
+    "openpyxl>=3.1.0",
+    "streamlit>=1.30.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.5.0"
+]
+
+[project.scripts]
+qsales = "salesanalytics.cli:main"
+
+[tool.setuptools]
+packages = [
+    "salesanalytics",
+    "salesanalytics.ml",
+    "salesanalytics.reporting",
+    "salesanalytics.dashboard"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100

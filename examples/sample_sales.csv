@@ -1,0 +1,11 @@
+order_date,sales,region,product,channel
+2026-01-01,1200,Middle East,Server Support,Direct
+2026-01-15,800,Europe,Automation,Partner
+2026-02-01,1500,Middle East,Consulting,Direct
+2026-02-20,2200,North America,Monitoring,Direct
+2026-03-02,1800,Europe,Automation,Partner
+2026-03-15,2600,Middle East,Monitoring,Direct
+2026-04-01,3100,North America,Consulting,Partner
+2026-04-18,1900,Europe,Server Support,Direct
+2026-05-05,3600,Middle East,Consulting,Direct
+2026-05-21,2800,North America,Automation,Partner

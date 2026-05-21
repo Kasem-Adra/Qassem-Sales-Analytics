@@ -1,0 +1,7 @@
+Qassem Sales Analytics
+Owner: Kasem Adra
+Repository: Qassem-Sales-Analytics
+CLI: qsales
+Dashboard: Streamlit
+License: MIT
+Version: 0.2.0 Enterprise
